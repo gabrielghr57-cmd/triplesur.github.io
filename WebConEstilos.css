@@ -1,0 +1,156 @@
+
+*,
+*:before,
+*:after{
+                                                               -webkit-box-sizing: border-box;
+                                                               -moz-box-sizing: border-box;
+                                                                box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    width: 100%;
+    min-height: 100vh;
+}
+
+body{ 
+display:block;
+align-items: center;
+flex-direction: column; 
+background-color: rgb(1, 128, 28);
+font-size: small;
+margin: 0; 
+padding: 0; 
+text-align: center;
+font-family: Arial, Helvetica, sans-serif; 
+                                            }
+                    
+
+
+                                                    
+                                           .clear { 
+                   
+                                            clear: both;
+                                                          }
+           
+                                       
+            #cuadro02, #cuadro03, #cuadro04, #cuadro05, #cuadro06, #cuadro07, #cuadro08, #cuadro09, #cuadro10, #cuadro11, 
+            #cuadro12, #cuadro13, #cuadro14, #cuadro15, #cuadro16, #cuadro17, #cuadro18, #cuadro19, #cuadro20, #cuadro21, 
+            #cuadro22, #cuadro23, #cuadro24, #cuadro25, #cuadro26, #cuadro27, #cuadro28, #cuadro29, #cuadro30, #cuadro31, #cuadro32 
+                                            {    
+                                            
+                                            position: relative;
+                                            box-shadow: #027424b8 0.3em 0.3em 0.999em 0em; 
+                                            border-radius: 2em;   
+                                            max-width: 13em ; 
+                                            height: 12.88em; 
+                                            padding-bottom: 1em; 
+                                            padding-top: 1em;  
+                                            align-items: center;
+                                            justify-content: center;
+                                            transition: 0.1s linear;
+                                            overflow: hidden;                                            
+                                            margin: 1.5em;
+                                            display: none;
+                                            
+                                            
+                                                                    }
+                                            
+#cuadro01:hover, #cuadro02:hover, #cuadro03:hover, #cuadro04:hover, #cuadro05:hover, #cuadro06:hover, #cuadro07:hover, 
+#cuadro08:hover, #cuadro09:hover, #cuadro10:hover, #cuadro11:hover, #cuadro12:hover, #cuadro13:hover, #cuadro14:hover, 
+#cuadro15:hover, #cuadro16:hover, #cuadro17:hover, #cuadro18:hover, #cuadro19:hover, #cuadro20:hover, #cuadro21:hover, 
+#cuadro22:hover, #cuadro23:hover, #cuadro24:hover, #cuadro25:hover, #cuadro26:hover, #cuadro27:hover, #cuadro28:hover, 
+#cuadro29:hover, #cuadro30:hover, #cuadro31:hover, #cuadro32:hover
+                                                {
+                                            
+                                                    transform: scale(1.2, 1.2);
+                                            
+                                                }
+
+                            .caradeanimalitos{
+                                                max-width: 70%;
+                                                margin-top: -0.5em;
+                                                overflow: hidden;
+                                                                      } 
+                            
+
+                            .texto-border {
+                                            font-size: 130%;
+                                            opacity: 0.999999;
+                                            color: white;
+                                            text-shadow:  black  1.5px 1.5px 1px;
+                                                                                    }
+                            
+                            figure { 
+                                     display: grid;
+                                     place-items: center;
+                                                }
+
+
+article.ruelta{
+    
+    display: grid;
+    place-items: center;
+    width: 75%;
+    height: 120vh;
+    position: relative;
+float: right;
+
+}
+
+
+.indicador{
+    height: 2.5em;
+    width: 2.5em;
+    background-color: rgba(8, 6, 133, 0.425);
+    border:0.2em solid #abeafd;
+      top: 1.5em;
+    z-index: 5;
+    transform: rotate(45.75deg);
+    border-radius: 4em 4em 0em 4em;
+    position: relative;
+    
+}
+
+
+                                            img#ruletaz { 
+                                                            z-index: 3;
+                                                            transition: all 20s;
+                                                            max-width: 75%;
+                                                            
+
+                                                                                 }
+
+
+#seccion-01 {
+    position: relative;
+    width: 20%;
+    display: flex;
+    
+    z-index: 7;
+    float: left;
+    
+    
+    top: -55em;
+    
+    
+}
+
+                                                #particles-js{
+                                                width: 100%;
+                                                height: 200vh;
+                                                position: fixed;
+                                                    top: -20em;
+                                                display: grid;
+                                          
+                                                z-index: auto;
+                                                    place-items: center;
+                                              
+                                                        
+                                                   
+
+                                                }
